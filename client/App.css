@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body {
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    font-family: 'Muli', sans-serif;
+}
+
+.AppHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    background: #acb200;
+    font-size: 24px;
+}
+
+.AppTitle {
+    display: flex;
+    width: 25vw;
+    border-right: 1px solid #ccc;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.AppRoom {
+    display: flex;
+    width: 75vw;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #dbefa0;
+}
+
+.AppBody {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.MessageWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    flex: 1;
+    background: #CDC9A5;
+}
