@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import io from "socket.io-client";
 
 import styles from './UserForm.css';
-const socket = io('/');
 
 class UserForm extends Component {
   constructor(props) {
